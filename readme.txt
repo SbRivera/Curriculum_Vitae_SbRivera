@@ -245,15 +245,26 @@ export default function Loans() {
 
 
 
-
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import './index.css';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#2563eb" /> <!-- Color del tema (azul de Tailwind) -->
+  
+  <!-- Preconexión para mejorar performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Fuente de Google (recomiendo Inter para diseño moderno) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <title>Coopartamos | Tu Cooperativa de Ahorro y Crédito</title>
+</head>
+<body class="font-sans antialiased">
+  <div id="root"></div>
+</body>
+</html>
     <App />
   </React.StrictMode>
 );
