@@ -303,6 +303,117 @@ const SocialIcon = ({ href, children }) => (
     rel="noopener noreferrer"
     className="text-gray-400 hover:text-primary transition-colors"
   >
+
+
+
+----------------------------------------------------------------------
+Simulador
+----------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulador de Inversiones</title>
+    <style>
+        body { font-family: Arial; background: #f4f4f4; padding: 20px; }
+        .container { background: white; padding: 20px; max-width: 600px; margin: auto; box-shadow: 0 0 10px #ccc; }
+        label { font-weight: bold; font-size: small; }
+        input, button { padding: 10px; margin: 5px 0; width: 100%; }
+        .error { color: red; font-size: 12px; display: none; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: center; font-size: 14px; }
+        th { background: #eee; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Simulador de Inversiones</h2>
+    <div>
+        <label for="monto">Monto a solicitar ($):</label>
+        <input type="number" id="monto" />
+        <div id="montoError" class="error">Ingrese un monto válido.</div>
+    </div>
+    <div>
+        <label for="plazo">Plazo (meses):</label>
+        <input type="number" id="plazo" />
+        <div id="plazoError" class="error">Ingrese un plazo válido.</div>
+    </div>
+    <div style="margin-top: 10px;">
+        <button onclick="simular()">Simular</button>
+    </div>
+
+    <table id="tablaResultados" style="display: none;">
+        <thead>
+            <tr>
+                <th>N° Cuota</th>
+                <th>Saldo</th>
+                <th>Capital</th>
+                <th>Interés</th>
+                <th>Seguro</th>
+                <th>Cuota</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<script>
+function simular() {
+    const monto = parseFloat(document.getElementById('monto').value);
+    const plazo = parseInt(document.getElementById('plazo').value);
+    const tasaAnual = 0.156;
+    const seguro = 0.00093;
+
+    let valido = true;
+
+    if (isNaN(monto) || monto <= 0) {
+        document.getElementById('montoError').style.display = 'block';
+        valido = false;
+    } else {
+        document.getElementById('montoError').style.display = 'none';
+    }
+
+    if (isNaN(plazo) || plazo <= 0) {
+        document.getElementById('plazoError').style.display = 'block';
+        valido = false;
+    } else {
+        document.getElementById('plazoError').style.display = 'none';
+    }
+
+    if (!valido) return;
+
+    const tasaMensual = tasaAnual / 12;
+    const cuota = (monto * tasaMensual) / (1 - Math.pow(1 + tasaMensual, -plazo));
+
+    let saldo = monto;
+    const tbody = document.querySelector('#tablaResultados tbody');
+    tbody.innerHTML = '';
+
+    for (let i = 1; i <= plazo; i++) {
+        const interes = saldo * tasaMensual;
+        const capital = cuota - interes;
+        const seguroCuota = monto * seguro;
+        saldo -= capital;
+
+        tbody.innerHTML += `
+            <tr>
+                <td>${i}</td>
+                <td>${saldo.toFixed(2)}</td>
+                <td>${capital.toFixed(2)}</td>
+                <td>${interes.toFixed(2)}</td>
+                <td>${seguroCuota.toFixed(2)}</td>
+                <td>${(cuota + seguroCuota).toFixed(2)}</td>
+            </tr>`;
+    }
+
+    document.getElementById('tablaResultados').style.display = 'table';
+}
+</script>
+
+</body>
+</html>
+
     {children}
   </a>
 );
