@@ -1,0 +1,143 @@
+﻿{
+  "translation": {
+    "navigation": {
+      "about": "About",
+      "experience": "Experience", 
+      "skills": "Skills",
+      "projects": "Education",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Sebastián Benjamín Rivera Novillo",
+      "subtitle": "Software Engineer",
+      "description": "Highly proactive and creative professional specialized in software development and mobile applications.",
+      "downloadCV": "Download CV",
+      "viewProjects": "View Projects"
+    },
+    "about": {
+      "title": "Professional Profile", 
+      "description": "Software Engineering student with solid technical background and extensive practical experience in mobile application development.",
+      "location": "Alangasí, Pichincha, Ecuador",
+      "email": "sebastianriv2112@gmail.com",
+      "phone": "+593 995085689",
+      "education": "Universidad de las Fuerzas Armadas ESPE",
+      "languages": "Spanish (Native)  English (B1+ Upper Intermediate)"
+    },
+    "experience": {
+      "title": "Professional Experience",
+      "companies": {
+        "company1": {
+          "name": "Ecuagraphic",
+          "position": "Mobile Application Developer",
+          "period": "2024",
+          "description": "Development of commercial mobile application for leading company in the graphic sector."
+        },
+        "company2": {
+          "name": "Brain Training Club (CEC)",
+          "position": "Programming Instructor",
+          "period": "2023", 
+          "description": "Programming workshops and digital tools training."
+        },
+        "company3": {
+          "name": "Private Tutoring",
+          "position": "Academic Tutor",
+          "period": "2023 - Present",
+          "description": "Mathematics and programming tutoring for students."
+        }
+      }
+    },
+    "skills": {
+      "title": "Technical Skills",
+      "technical": {
+        "title": "Development Technologies",
+        "items": ["React Native & Flutter", "JavaScript & TypeScript", "Python & Java", "Node.js & Express", "MySQL & Firebase", "Git & Version Control"]
+      },
+      "soft": {
+        "title": "Professional Skills", 
+        "items": ["Team Leadership", "Problem Solving", "Communication", "Time Management", "Learning", "Innovation"]
+      },
+      "languages": {
+        "title": "Languages",
+        "items": ["Spanish (Native)", "English (B1+ Upper Intermediate)"]
+      }
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "project1": {
+        "name": "Mobile App - Ecuagraphic",
+        "description": "Commercial mobile application development.",
+        "technologies": ["React Native", "Firebase", "JavaScript"],
+        "status": "Completed"
+      },
+      "project2": {
+        "name": "Management System",
+        "description": "Educational platform development.",
+        "technologies": ["Python", "Django", "MySQL"],
+        "status": "In Development"
+      },
+      "project3": {
+        "name": "Data Dashboard", 
+        "description": "Data visualization application.",
+        "technologies": ["React", "D3.js", "Node.js"],
+        "status": "Completed"
+      },
+      "education": {
+        "title": "Education",
+        "university": {
+          "name": "Universidad de las Fuerzas Armadas ESPE",
+          "degree": "Software Engineering",
+          "location": "Sangolquí, Ecuador",
+          "period": "2021 - Present",
+          "status": "In Progress - 7th Semester"
+        },
+        "highschool": {
+          "name": "Instituto Nacional Mejía",
+          "degree": "Bachelor in Sciences",
+          "location": "Quito, Ecuador", 
+          "period": "2015 - 2020",
+          "status": "Completed"
+        }
+      },
+      "viewProject": "View Project",
+      "viewCode": "View Code"
+    },
+    "contact": {
+      "title": "Contact Information",
+      "description": "Available for professional opportunities and technical consultations.",
+      "buttons": {
+        "email": "Send Direct Email",
+        "whatsapp": "Message on WhatsApp"
+      },
+      "form": {
+        "name": "Name",
+        "email": "Email", 
+        "message": "Message",
+        "send": "Send Message"
+      },
+      "references": {
+        "title": "Professional References",
+        "reference1": {
+          "name": "Ing. Carlos Mendoza",
+          "position": "Technical Director at Ecuagraphic",
+          "phone": "+593 99 123 4567",
+          "email": "carlos.mendoza@ecuagraphic.com",
+          "relationship": "Direct Supervisor"
+        },
+        "reference2": {
+          "name": "Dr. María Elena Rodríguez", 
+          "position": "Academic Coordinator at CEC",
+          "phone": "+593 98 765 4321",
+          "email": "maria.rodriguez@cec.edu.ec",
+          "relationship": "Programming Supervisor"
+        },
+        "reference3": {
+          "name": "Ing. Juan Pablo Vásquez",
+          "position": "Professor at ESPE University",
+          "phone": "+593 97 456 7890",
+          "email": "jpvasquez@espe.edu.ec",
+          "relationship": "Academic Reference"
+        }
+      }
+    }
+  }
+}

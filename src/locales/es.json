@@ -1,0 +1,133 @@
+{
+  "translation": {
+    "navigation": {
+      "about": "Acerca de",
+      "experience": "Experiencia",
+      "skills": "Habilidades",
+      "projects": "Educación",
+      "contact": "Contacto"
+    },
+    "hero": {
+      "title": "Sebastián Benjamín Rivera Novillo",
+      "subtitle": "Ingeniero de Software",
+      "description": "Profesional altamente proactivo y creativo, especializado en desarrollo de software y aplicaciones móviles. Comprometido con la excelencia técnica, el aprendizaje continuo y la innovación en soluciones digitales que generen impacto real."
+    },
+    "about": {
+      "title": "Perfil Profesional",
+      "description": "Estudiante de Ingeniería de Software con sólida formación técnica y amplia experiencia práctica en desarrollo de aplicaciones móviles y análisis de datos. Me caracterizo por ser una persona altamente proactiva, creativa y con excepcional capacidad para trabajar en equipo bajo presión. Mantengo un compromiso constante con el aprendizaje continuo, la innovación tecnológica y la excelencia en cada proyecto que desarrollo.",
+      "location": "Alangasí, Pichincha, Ecuador",
+      "email": "sebastianriv2112@gmail.com",
+      "phone": "+593 995085689",
+      "education": "Universidad de las Fuerzas Armadas ESPE",
+      "languages": "Español (Nativo) • Inglés (B1+ Intermedio Alto)"
+    },
+    "experience": {
+      "title": "Experiencia Profesional",
+      "companies": {
+        "company1": {
+          "name": "Ecuagraphic",
+          "position": "Desarrollador de Aplicaciones Móviles",
+          "period": "2024",
+          "description": "Desarrollo integral de aplicación móvil comercial para empresa ecuatoriana líder en el sector gráfico. Implementación de soluciones orientadas a mejorar la presencia digital corporativa y optimizar la experiencia del usuario final a través de interfaces intuitivas y funcionalidades innovadoras."
+        },
+        "company2": {
+          "name": "Club de Entrenamiento Cerebral (CEC)",
+          "position": "Instructor de Programación y Herramientas Digitales",
+          "period": "2023",
+          "description": "Facilitación de talleres especializados en introducción a la programación y capacitaciones en herramientas digitales modernas. Diseño e implementación de metodologías didácticas para la enseñanza de conceptos fundamentales de programación, promoviendo el pensamiento lógico y estructurado en estudiantes."
+        },
+        "company3": {
+          "name": "Tutoría Académica Independiente",
+          "position": "Tutor de Ciencias Exactas",
+          "period": "2023",
+          "description": "Acompañamiento académico personalizado en matemáticas y física, desarrollando estrategias de aprendizaje efectivas y métodos de resolución de problemas. Apoyo integral a estudiantes para fortalecer sus competencias en ciencias exactas mediante enfoques pedagógicos adaptados a diferentes estilos de aprendizaje."
+        }
+      }
+    },
+    "skills": {
+      "title": "Competencias Técnicas",
+      "categories": {
+        "mobile": "Desarrollo Móvil",
+        "programming": "Lenguajes de Programación",
+        "database": "Gestión de Datos",
+        "analytics": "Análisis y Métricas",
+        "tools": "Herramientas y Metodologías"
+      },
+      "items": {
+        "flutter": "Flutter & Dart",
+        "java": "Java",
+        "javascript": "JavaScript",
+        "python": "Python",
+        "sql": "SQL Avanzado",
+        "kpi": "Indicadores KPI",
+        "algorithms": "Algoritmos y Estructuras",
+        "ui_design": "Diseño de Interfaces",
+        "mobile_dev": "Aplicaciones Móviles",
+        "data_analysis": "Análisis de Datos"
+      }
+    },
+    "projects": {
+      "title": "Formación Académica",
+      "items": {
+        "university": {
+          "name": "Universidad de las Fuerzas Armadas ESPE",
+          "degree": "Ingeniería de Software",
+          "location": "Sangolquí, Ecuador",
+          "period": "2020 - Actualidad",
+          "status": "En curso"
+        },
+        "highschool": {
+          "name": "Instituto Nacional Mejía",
+          "degree": "Bachiller en Ciencias",
+          "location": "Quito, Ecuador",
+          "period": "2015 - 2020",
+          "status": "Completado"
+        }
+      },
+      "viewProject": "Ver Proyecto",
+      "viewCode": "Ver Código"
+    },
+    "contact": {
+      "title": "Información de Contacto",
+      "description": "Estoy disponible para oportunidades profesionales, colaboraciones en proyectos innovadores y consultas técnicas. No dudes en contactarme para discutir cómo puedo contribuir a tu equipo o proyecto.",
+      "buttons": {
+        "email": "Enviar Email Directo",
+        "whatsapp": "Escribir por WhatsApp"
+      },
+      "form": {
+        "name": "Nombre",
+        "email": "Correo Electrónico",
+        "message": "Mensaje",
+        "send": "Enviar Mensaje"
+      },
+      "references": {
+        "title": "Referencias Profesionales",
+        "contacts": {
+          "ref1": {
+            "name": "Ing. Pablo Zurita",
+            "title": "Ing. Electrónica y Telecomunicaciones",
+            "phone": "0992543513",
+            "email": "zuritaruales@hotmail.com"
+          },
+          "ref2": {
+            "name": "Dr. Jorge Bolaños",
+            "title": "Especialista en Derecho Informático",
+            "phone": "0995018560",
+            "email": "bolanospizara@hotmail.com"
+          },
+          "ref3": {
+            "name": "Ing. Fernando Solís",
+            "title": "Ing. de Sistemas y Computación",
+            "phone": "0984074616",
+            "email": "efsolis@espe.edu.ec"
+          }
+        }
+      }
+    },
+    "buttons": {
+      "darkMode": "Modo Oscuro",
+      "lightMode": "Modo Claro",
+      "downloadCV": "Descargar CV"
+    }
+  }
+}

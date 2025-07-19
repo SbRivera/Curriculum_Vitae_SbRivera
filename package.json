@@ -1,0 +1,66 @@
+{
+  "name": "curriculum_vitae_sbrivera",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://sbrivera.github.io/Curriculum_Vitae_SbRivera",
+  "dependencies": {
+    "@jridgewell/gen-mapping": "^0.3.12",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "i18next": "^22.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.3.1",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SbRivera/Curriculum_Vitae_SbRivera.git"
+  },
+  "keywords": [
+    "cv",
+    "resume",
+    "react",
+    "typescript",
+    "gothic",
+    "software-engineer"
+  ],
+  "author": "Sebastian Rivera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SbRivera/Curriculum_Vitae_SbRivera/issues"
+  },
+  "description": "CV profesional con diseño gótico para ingeniero de software",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
